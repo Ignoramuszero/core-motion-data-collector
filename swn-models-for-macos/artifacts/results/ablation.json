@@ -1,0 +1,66 @@
+{
+  "vote_window": {
+    "1": {
+      "accuracy": 0.7842696629213484,
+      "event_f1": 0.4444444444444444,
+      "event_recall": 0.6666666666666666,
+      "event_precision": 0.3333333333333333,
+      "duty_cycle": 0.24190499999999998,
+      "energy_j_per_hour": 1.3688757164045664,
+      "median_switch_latency_s": 6.099999999999994
+    },
+    "2": {
+      "accuracy": 0.7773033707865169,
+      "event_f1": 0.4444444444444444,
+      "event_recall": 0.6666666666666666,
+      "event_precision": 0.3333333333333333,
+      "duty_cycle": 0.24190499999999998,
+      "energy_j_per_hour": 1.3688757164045664,
+      "median_switch_latency_s": 12.099999999999994
+    },
+    "3": {
+      "accuracy": 0.7976404494382022,
+      "event_f1": 0.4444444444444444,
+      "event_recall": 0.6666666666666666,
+      "event_precision": 0.3333333333333333,
+      "duty_cycle": 0.24190499999999998,
+      "energy_j_per_hour": 1.3688757164045664,
+      "median_switch_latency_s": 12.099999999999994
+    }
+  },
+  "detector_mode": {
+    "rule": {
+      "accuracy": 0.7976404494382022,
+      "event_f1": 0.43678160919540227,
+      "event_recall": 0.6333333333333333,
+      "event_precision": 0.3333333333333333,
+      "duty_cycle": 0.23897999999999997,
+      "energy_j_per_hour": 1.358349259176955,
+      "median_switch_latency_s": 12.099999999999994
+    },
+    "rf": {
+      "accuracy": 0.7983146067415731,
+      "event_f1": 0.2105263157894737,
+      "event_recall": 0.13333333333333333,
+      "event_precision": 0.5,
+      "duty_cycle": 0.1916,
+      "energy_j_per_hour": 0.9122120299119901,
+      "median_switch_latency_s": 12.099999999999994
+    },
+    "hybrid": {
+      "accuracy": 0.7976404494382022,
+      "event_f1": 0.4444444444444444,
+      "event_recall": 0.6666666666666666,
+      "event_precision": 0.3333333333333333,
+      "duty_cycle": 0.24190499999999998,
+      "energy_j_per_hour": 1.3688757164045664,
+      "median_switch_latency_s": 12.099999999999994
+    }
+  },
+  "sampling_regime": {
+    "sampling_1hz_test_AP": 0.033,
+    "sampling_burst_test_AP": 0.137,
+    "burst_base_rate": 0.0205,
+    "hz1_base_rate": 0.0167
+  }
+}

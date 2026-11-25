@@ -1,0 +1,45 @@
+{
+  "source": "E:\\HKUST-GZ\\Motion.csv",
+  "duration_s": 259.0,
+  "per_activity_s": {
+    "walking": 84.0,
+    "jogging": 0.0,
+    "stairs": 60.0,
+    "sitting": 115.0,
+    "standing": 0.0
+  },
+  "per_activity_pct": {
+    "walking": 32.4,
+    "jogging": 0.0,
+    "stairs": 23.2,
+    "sitting": 44.4,
+    "standing": 0.0
+  },
+  "n_events": 2,
+  "event_times_s": [
+    96.0,
+    108.0
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 36.0,
+      "label": "sitting"
+    },
+    {
+      "start": 36.0,
+      "end": 96.0,
+      "label": "stairs"
+    },
+    {
+      "start": 96.0,
+      "end": 180.0,
+      "label": "walking"
+    },
+    {
+      "start": 180.0,
+      "end": 259.0,
+      "label": "sitting"
+    }
+  ]
+}

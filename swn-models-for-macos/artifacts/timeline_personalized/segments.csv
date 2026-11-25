@@ -1,0 +1,5 @@
+start_s,end_s,duration_s,label,label_cn
+0.0,36.0,36.0,sitting,静坐
+36.0,96.0,60.0,stairs,上下楼
+96.0,180.0,84.0,walking,行走
+180.0,259.0,79.0,sitting,静坐

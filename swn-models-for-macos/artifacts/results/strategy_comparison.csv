@@ -1,0 +1,4 @@
+strategy,accuracy,macro_f1,duty_cycle,energy_j_per_hour,samples_per_hour,inferences_per_hour,gps_on_s_per_hour,llm_calls_per_hour,median_switch_latency_s
+always_on,0.8009,0.8234,1.0000,3.7,72000,3584,0,0.0,3.1
+periodic,0.7888,0.8109,0.2984,1.1,21488,353,0,0.0,10.15
+event_driven,0.7976,0.8112,0.2418,1.4,17407,806,16,10.8,12.1

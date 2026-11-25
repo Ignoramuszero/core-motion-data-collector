@@ -1,0 +1,167 @@
+{
+  "wisdm_test": {
+    "main_before": {
+      "accuracy": 0.8049717514124294,
+      "macro_f1": 0.8009886848614537,
+      "per_class_f1": {
+        "walking": 0.6178047908473364,
+        "jogging": 0.985686219477968,
+        "stairs": 0.7213862289101687,
+        "sitting": 0.8510875627440044,
+        "standing": 0.828978622327791
+      }
+    },
+    "burst_before": {
+      "accuracy": 0.7929608938547485,
+      "macro_f1": 0.7901551236349794,
+      "per_class_f1": {
+        "walking": 0.6276558690351793,
+        "jogging": 0.974571586511885,
+        "stairs": 0.7054017249205629,
+        "sitting": 0.8339320254213871,
+        "standing": 0.8092144122858831
+      }
+    },
+    "main_after": {
+      "accuracy": 0.827683615819209,
+      "macro_f1": 0.8270387606850932,
+      "per_class_f1": {
+        "walking": 0.724338282763073,
+        "jogging": 0.9876265466816648,
+        "stairs": 0.7553269654665687,
+        "sitting": 0.8463029631680975,
+        "standing": 0.8215990453460621
+      }
+    },
+    "burst_after": {
+      "accuracy": 0.8105027932960894,
+      "macro_f1": 0.8103482115825822,
+      "per_class_f1": {
+        "walking": 0.7044662654418752,
+        "jogging": 0.9745575221238938,
+        "stairs": 0.7206988595001214,
+        "sitting": 0.8379272326350606,
+        "standing": 0.8140911782119598
+      }
+    },
+    "event_before": {
+      "precision": 0.375,
+      "recall": 0.1,
+      "f1": 0.15789473684210525,
+      "average_precision": 0.13679337567999353
+    },
+    "event_after": {
+      "precision": 0.2,
+      "recall": 0.03333333333333333,
+      "f1": 0.05714285714285714,
+      "average_precision": 0.1165093561813531
+    }
+  },
+  "personal": {
+    "main_before": {
+      "accuracy": 0.6018518518518519,
+      "macro_f1": 0.4615257271010053,
+      "per_class_f1": {
+        "walking": 0.48854961832061067,
+        "jogging": 0.0,
+        "stairs": 0.5421686746987951,
+        "sitting": 0.8153846153846154,
+        "standing": 0.0
+      }
+    },
+    "burst_before": {
+      "accuracy": 0.5495495495495496,
+      "macro_f1": 0.40629034707982076,
+      "per_class_f1": {
+        "walking": 0.2777777777777778,
+        "jogging": 0.0,
+        "stairs": 0.5353535353535354,
+        "sitting": 0.8120300751879699,
+        "standing": 0.0
+      }
+    },
+    "main_after": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "per_class_f1": {
+        "walking": 1.0,
+        "jogging": 0.0,
+        "stairs": 1.0,
+        "sitting": 1.0,
+        "standing": 0.0
+      }
+    },
+    "burst_after": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "per_class_f1": {
+        "walking": 1.0,
+        "jogging": 0.0,
+        "stairs": 1.0,
+        "sitting": 1.0,
+        "standing": 0.0
+      }
+    }
+  },
+  "events": {
+    "transition_diagnosis": {
+      "true_transitions_s": [
+        35.0,
+        95.0,
+        180.0
+      ],
+      "before": [
+        {
+          "t_s": 35.0,
+          "kind": "standing->stairs",
+          "max_p_rf": 0.343,
+          "max_z": 3.52,
+          "rf_fired": false,
+          "rule_fired": false
+        },
+        {
+          "t_s": 95.0,
+          "kind": "stairs->walking",
+          "max_p_rf": 0.048,
+          "max_z": 4.34,
+          "rf_fired": false,
+          "rule_fired": true
+        },
+        {
+          "t_s": 180.0,
+          "kind": "walking->sitting",
+          "max_p_rf": 0.058,
+          "max_z": 0.85,
+          "rf_fired": false,
+          "rule_fired": false
+        }
+      ],
+      "after": [
+        {
+          "t_s": 35.0,
+          "kind": "standing->stairs",
+          "max_p_rf": 0.99,
+          "max_z": 3.52,
+          "rf_fired": true,
+          "rule_fired": false
+        },
+        {
+          "t_s": 95.0,
+          "kind": "stairs->walking",
+          "max_p_rf": 0.983,
+          "max_z": 4.34,
+          "rf_fired": true,
+          "rule_fired": true
+        },
+        {
+          "t_s": 180.0,
+          "kind": "walking->sitting",
+          "max_p_rf": 0.993,
+          "max_z": 0.85,
+          "rf_fired": true,
+          "rule_fired": false
+        }
+      ]
+    }
+  }
+}
